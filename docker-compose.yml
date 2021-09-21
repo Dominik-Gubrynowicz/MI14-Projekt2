@@ -7,8 +7,8 @@ services:
       - ./src:/var/www/html/
     ports:
       - 8000:80
-  db:
-    container_name: db
+  mi14db:
+    container_name: mi14db
     image: mariadb
     restart: always
     environment:
@@ -23,6 +23,6 @@ services:
       - '8080:80'
     restart: always
     environment:
-      PMA_HOST: db
+      PMA_HOST: mi14db
     depends_on:
-      - db
+      - mi14db
