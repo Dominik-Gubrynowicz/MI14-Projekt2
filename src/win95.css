@@ -165,7 +165,7 @@ Scrollbar (only chrome & safari)
     border-bottom-color: #424242;
     background: silver;
     color: black;
-    padding: 0 0 4px;
+    padding: 3, 5px;
     border-radius: 1px;
 }
 .btn:hover {
@@ -222,6 +222,9 @@ CARDS
     border-top-color: #fff;
     background: silver;
     color:#212529;
+    width: 40%;
+    float:left;
+    margin: 12px;
 }
 .card.square{
     border-radius: 0px;
@@ -251,6 +254,9 @@ CARDS
     background: gray !important;
 }
 
+.card-body{
+    padding: 5px
+}
 /*
 
 LIST GROUPS
