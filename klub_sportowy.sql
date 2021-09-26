@@ -164,3 +164,73 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+insert into Kluby values
+    (1,'Polska','Warszawa','Legia Warszawa'),
+    (2,'Polska','Kraków','KS Cracovia'),
+    (3,'Polska','Poznań','Lech Poznań'),
+    (4,'Polska','Wrocław','Śląsk Wrocław');
+
+insert into Trener values
+(1,'Czesław','Michniewicz',1970,1),
+(2,'Michał','Probierz',1972,2),
+(3,'Maciej','Skorża',1972,3),
+(4,'Jacek','Magiera',1977,4);
+
+insert into Piłkarze values
+(1,'Artur','Boruc',1980,1),
+(2,'Mateusz','Hołownia',1998,1),
+(3,'Mateusz','Wieteska',1997,1),
+(4,'Yuri','Ribeiro',1997,1),
+(5,'Andre','Martins',1990,1),
+(6,'Kacper','Skibicki',2001,1),
+(7,'Artur','Jędrzejczyk',1987,1),
+(8,'Bartosz','Slisz',1999,1),
+(9,'Tomas','Pekhart',1989,1),
+(10,'Ernest','Muci',2001,1),
+(11,'Szymon','Włodarczyk',2003,1),
+(12,'Cornel','Cornel ',1990,2),
+(13,'Michal','Sipľak',1996,2),
+(14,'Sergiu','Hanca',1992,2),
+(15,'Sylwester','Lusiusz',1999,2),
+(16,'Mathias','Hebo',1995,2),
+(17,'Marcos','Álvarez',1991,2),
+(18,'Michał','Rakoczy',2002,2),
+(19,'Radosław','Kanach',1999,2),
+(20,'Damir','Sadiković',1995,2),
+(21,'Adam','Wilk',1997,2),
+(22,'Patryk','Zaucha',1997,2),
+(23,'Joel','Pereira',1996,3),
+(24,'Barry','Douglas',1989,3),
+(25,'Filip','Marchwiński',2002,3),
+(26,'Antonio','Milić',1994,3),
+(27,'Filip','Wilak',1998,3),
+(28,'Bartosz','Salamon',1991,3),
+(29,'Michał','Skóraś',2000,3),
+(31,'Radosław','Murawski',1994,3),
+(32,'Pedro','Tiba',1988,3),
+(33,'Nika','Kwekweskiri',1992,3),
+(34,'Klupś','Tymoteusz',2000,3),
+(35,'Bartłomiej','Pawłowski',1922,4),
+(36,'Wojciech','Golla',1992,4),
+(37,'Márk','Tamás',1993,4),
+(38,'Lubambo','Musonda',1995,4),
+(39,'Róbert','Pich',1988,4),
+(40,'Erik','Expósito',1996,4),
+(41,'Petr','Schwarz',1991,4),
+(42,'Marcel','Zylla',2000,4),
+(43,'Adrian','Łyszczarz',1999,4),
+(44,'Krzysztof','Mączyński',1987,4),
+(45,'Matúš','Putnocký',1984,4);
+
+insert into Wypozyczenia values
+(1,1,23,2022-04-21),
+(2,2,43,2023-14-11),
+(3,3,6,2021-12-00),
+(4,4,9,2024-30-23),
+(5,1,26,2025-02-14),
+(6,2,15,2021-11-25),
+(7,3,37,2022-09-13),
+(8,4,12,2026-12-15),
+(9,3,41,2022-04-18),
+(10,2,24,2022-03-14);
